@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>User.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">JaCoCoverage analysis of project &quot;DungeonCrawlerTest2&quot; (powered by JaCoCo from EclEmma)</a> &gt; <a href="index.source.html" class="el_package">dungeoncrawlertest2.classes</a> &gt; <span class="el_source">User.java</span></div><h1>User.java</h1><pre class="source lang-java linenums">/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package dungeoncrawlertest2.classes;
+
+/**
+ *
+ * @author Maxime &amp; Sander
+ */
+public class User {
+    // &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Fields&quot;&gt;
+    private int id;
+    private String name;
+    // &lt;/editor-fold&gt;
+
+    // &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Constructor&quot;&gt;
+<span class="fc" id="L19">    public User(int id, String username, String password) {</span>
+<span class="fc" id="L20">        this.id = id;</span>
+<span class="fc" id="L21">        this.name = username;</span>
+<span class="fc" id="L22">    }</span>
+    // &lt;/editor-fold&gt;
+
+    // &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Methods&quot;&gt;
+    /**
+     * Gets the ID of the current user.
+     * 
+     * @return Returns the user id.
+     */
+    public int getID()
+    {
+<span class="fc" id="L33">        return id;</span>
+    }
+    
+    /**
+     * Gets the name of this user.
+     * 
+     * @return Returns the user name.
+     */
+    public String getName()
+    {
+<span class="fc" id="L43">        return name;</span>
+    }
+    
+    /**
+     * This method uses a username and password to create a user.
+     *
+     * @param username The username of an user (max. 32 alphanumeric
+     * characters).
+     * @param password The password of an user (min. 6. characters, max. 32
+     * characters).
+     * @return Return the user if the registration was successful.
+     */
+    public static User register(String username, String password) {
+<span class="fc" id="L56">        throw new UnsupportedOperationException(&quot;Not supported yet.&quot;); //To change body of generated methods, choose Tools | Templates.</span>
+    }
+
+    /**
+     * This static method allows the user to log in, requires a username and password.
+     *
+     * @param username The username of the user that wants to log in.
+     * @param password The password of the user that wants to log in.
+     * @return Return the user if the user was successfully logged in.
+     */
+    public static User login(String username, String password) {
+<span class="fc" id="L67">        throw new UnsupportedOperationException(&quot;Not supported yet.&quot;); //To change body of generated methods, choose Tools | Templates.</span>
+    }
+
+    /**
+     * This method logs out the currently logged in user.
+     */
+    public void logout() {
+<span class="nc" id="L74">        throw new UnsupportedOperationException(&quot;Not supported yet.&quot;); //To change body of generated methods, choose Tools | Templates.</span>
+    }
+    // &lt;/editor-fold&gt;
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.5.201505241946</span></div></body></html>

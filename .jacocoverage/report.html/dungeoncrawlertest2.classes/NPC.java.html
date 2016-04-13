@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>NPC.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">JaCoCoverage analysis of project &quot;DungeonCrawlerTest2&quot; (powered by JaCoCo from EclEmma)</a> &gt; <a href="index.source.html" class="el_package">dungeoncrawlertest2.classes</a> &gt; <span class="el_source">NPC.java</span></div><h1>NPC.java</h1><pre class="source lang-java linenums">/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package dungeoncrawlertest2.classes;
+
+/**
+ *
+ * @author Maxime &amp; Sander
+ */
+public class NPC extends Character {
+    // &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Fields&quot;&gt;
+    private int expDrop;
+    private int goldDrop;
+    // &lt;/editor-fold&gt;
+
+    // &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Constructor&quot;&gt;
+    public NPC(int id, String name, int health, int defence, int attack, int currentHealth, int currentTurns, int expDrop, int goldDrop) {
+<span class="fc" id="L20">        super(id, name, health, defence, attack, currentHealth, currentTurns);</span>
+<span class="fc" id="L21">        this.expDrop = expDrop;</span>
+<span class="fc" id="L22">        this.goldDrop = goldDrop;</span>
+<span class="fc" id="L23">    }</span>
+    // &lt;/editor-fold&gt;
+
+    /**
+     * Gets the experience per NPC.
+     * 
+     * @return the amount of experience.
+     */
+    public int getExpDrop() {
+<span class="fc" id="L32">        return expDrop;</span>
+    }
+
+    /**
+     * Gets the gold drop per NPC.
+     * 
+     * @return the amount of gold dropped.
+     */
+    public int getGoldDrop() {
+<span class="fc" id="L41">        return goldDrop;</span>
+    }
+
+    // &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Methods&quot;&gt;
+    /**
+     * This method is called when the NPC dies, possibly resulting in loot being dropped.
+     * 
+     * @return Return true if there is loot being dropped. Otherwise return false.
+     */
+    public boolean dropLoot() {
+<span class="fc" id="L51">        throw new UnsupportedOperationException(&quot;Not supported yet.&quot;); //To change body of generated methods, choose Tools | Templates.</span>
+    }
+
+    /**
+     * This method makes the NPC start moving.
+     * 
+     * @return Returns true if the NPC is able to move. Otherwise return false.
+     */
+    public boolean startMove() {
+<span class="fc" id="L60">        throw new UnsupportedOperationException(&quot;Not supported yet.&quot;); //To change body of generated methods, choose Tools | Templates.</span>
+    }
+    // &lt;/editor-fold&gt;
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.5.201505241946</span></div></body></html>

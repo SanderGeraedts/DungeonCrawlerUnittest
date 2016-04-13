@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>Hero.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">JaCoCoverage analysis of project &quot;DungeonCrawlerTest2&quot; (powered by JaCoCo from EclEmma)</a> &gt; <a href="index.source.html" class="el_package">dungeoncrawlertest2.classes</a> &gt; <span class="el_source">Hero.java</span></div><h1>Hero.java</h1><pre class="source lang-java linenums">/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package dungeoncrawlertest2.classes;
+
+/**
+ *
+ * @author Maxime &amp; Sander
+ */
+public class Hero extends Character {
+    // &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Fields&quot;&gt;
+    private int experience;
+    // &lt;/editor-fold&gt;
+
+    // &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Constructor&quot;&gt;
+    /**
+     * 
+     * @param ID
+     * @param name
+     * @param health can't be less than 0
+     * @param defence
+     * @param attack
+     * @param currentHealth can't be less than 0 on construction
+     * @param currentTurns
+     * @param experience 
+     */
+    public Hero(int ID, String name, int health, int defence, int attack, int currentHealth, int currentTurns, int experience) {
+<span class="fc" id="L30">        super(ID, name, health, defence, attack, currentHealth, currentTurns);</span>
+<span class="fc" id="L31">        this.experience = experience;</span>
+<span class="fc" id="L32">    }</span>
+    // &lt;/editor-fold&gt;
+
+    // &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Methods&quot;&gt;
+    /**
+     * Gets the experience per hero.
+     * 
+     * @return the hero experience.
+     */
+    public int getExperience()
+    {
+<span class="fc" id="L43">        return experience;</span>
+    }
+    
+    /**
+     * This method allows the player to pick up items, adding them to the
+     * hero's possession.
+     *
+     * @param tile The tile containing the items, which should be picked up.
+     * @return Return true if the items are picked up and added to the hero's
+     * possession. Otherwise return false.
+     */
+    public boolean pickUpItems(Tile tile) {
+<span class="fc" id="L55">        throw new UnsupportedOperationException(&quot;Not supported yet.&quot;); //To change body of generated methods, choose Tools | Templates.</span>
+    }
+
+    /**
+     * This method allows the player to buy an item, removing gold equal to the
+     * value of the item from the players possession and adding the item to the
+     * hero's possession.
+     *
+     * @param item The item which should be bought.
+     * @return Return true if the item has been successfully bought. Otherwise
+     * return false;
+     */
+    public boolean buyItem(Item item) {
+<span class="fc" id="L68">        throw new UnsupportedOperationException(&quot;Not supported yet.&quot;); //To change body of generated methods, choose Tools | Templates.</span>
+    }
+
+    /**
+     * This method allows the player to use an item, removing it from the
+     * hero's possession and possibly applying an effect to the hero
+     * (depending on the type of item).
+     *
+     * @param item The item which should be used.
+     * @return Return true if the item has been successfully used. Otherwise
+     * return false;
+     */
+    public boolean useItem(Item item) {
+<span class="fc" id="L81">        throw new UnsupportedOperationException(&quot;Not supported yet.&quot;); //To change body of generated methods, choose Tools | Templates.</span>
+    }
+    
+    /**
+     * This method sells a specified item, removing it from the hero's
+     * possession and granting that player gold equal to the value of the item.
+     * @param item The item which should be sold.
+     * @return Return true if the item has been successfully sold.
+     * Otherwise return false.
+     */
+    public boolean sellItem(Item item) {
+<span class="fc" id="L92">        throw new UnsupportedOperationException(&quot;Not supported yet.&quot;); //To change body of generated methods, choose Tools | Templates.</span>
+    }
+    
+    /**
+     * This method drops a specified item, removing it from the hero's
+     * possession.
+     * @param item The item which should be dropped.
+     * @return Return true if the item has been successfully dropped.
+     * Otherwise return false;
+     */
+    public boolean dropItem(Item item) {
+<span class="fc" id="L103">        throw new UnsupportedOperationException(&quot;Not supported yet.&quot;); //To change body of generated methods, choose Tools | Templates.</span>
+    }
+    
+    /**
+     * This method allows a player to attempt to flee from combat, removing the
+     * hero from combat. This is not guaranteed to be successful.
+     * @return Return true if the player has fled from combat successfully.
+     */
+    public boolean flee() {
+<span class="fc" id="L112">        throw new UnsupportedOperationException(&quot;Not supported yet.&quot;); //To change body of generated methods, choose Tools | Templates.</span>
+    }
+    // &lt;/editor-fold&gt;
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.5.201505241946</span></div></body></html>

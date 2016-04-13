@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>Dungeon.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">JaCoCoverage analysis of project &quot;DungeonCrawlerTest2&quot; (powered by JaCoCo from EclEmma)</a> &gt; <a href="index.source.html" class="el_package">dungeoncrawlertest2.classes</a> &gt; <span class="el_source">Dungeon.java</span></div><h1>Dungeon.java</h1><pre class="source lang-java linenums">/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package dungeoncrawlertest2.classes;
+
+/**
+ *
+ * @author Maxime &amp; Sander
+ */
+public class Dungeon {
+    // &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Fields&quot;&gt;
+    private int id;
+    private String name;
+    private String type;
+    private int lvlRequirement;
+    // &lt;/editor-fold&gt;
+
+    // &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Constructor&quot;&gt;
+    /**
+     * 
+     * @param id
+     * @param name can't be longer than 225 characters
+     * @param type can't be longer than 225 characters
+     * @param lvlRequirement 
+     */
+<span class="fc" id="L28">    public Dungeon(int id, String name, String type, int lvlRequirement) {</span>
+<span class="fc" id="L29">        this.id = id;</span>
+<span class="fc" id="L30">        this.name = name;</span>
+<span class="fc" id="L31">        this.type = type;</span>
+<span class="fc" id="L32">        this.lvlRequirement = lvlRequirement;</span>
+<span class="fc" id="L33">    }</span>
+    // &lt;/editor-fold&gt;
+
+    /**
+     * Get the id of the dungeon.
+     * 
+     * @return the id of the dungeon.
+     */
+    public int getId() {
+<span class="fc" id="L42">        return id;</span>
+    }
+
+    /**
+     * Get the name of the dungeon
+     * 
+     * @return the name of the dungeon
+     */
+    public String getName() {
+<span class="fc" id="L51">        return name;</span>
+    }
+
+    /**
+     * Get the type of the dungeon
+     * 
+     * @return return the type of the dungeon
+     */
+    public String getType() {
+<span class="fc" id="L60">        return type;</span>
+    }
+
+    /**
+     * Get the level requirement of the dungeon
+     * 
+     * @return the level requirement of the dungeon
+     */
+    public int getLvlRequirement() {
+<span class="fc" id="L69">        return lvlRequirement;</span>
+    }
+
+    // &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Methods&quot;&gt;
+    /**
+     * Generates the dungeon
+     * 
+     * @return true is the dungeon can be generated. Otherwise returns false
+     */
+    public boolean generateDungeon() {
+<span class="nc" id="L79">        throw new UnsupportedOperationException(&quot;Not supported yet.&quot;); //To change body of generated methods, choose Tools | Templates.</span>
+    }
+    
+    /**
+     * Checks whether the user's level high enough to enter this dungeon.
+     * 
+     * @param userLvl 
+     * @return true if the userLvl is greater or equal to the lvlRequirement. Returns false otherwise.
+     */
+    public boolean checkLvlRequirement(int userLvl) {
+<span class="fc bfc" id="L89" title="All 2 branches covered.">        if(this.lvlRequirement &lt;= userLvl) {</span>
+<span class="fc" id="L90">            return true;</span>
+        } else {
+<span class="fc" id="L92">            return false;</span>
+        }
+    }
+    // &lt;/editor-fold&gt;
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.5.201505241946</span></div></body></html>
