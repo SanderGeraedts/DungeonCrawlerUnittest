@@ -3,6 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/C:/Users/sande/Documents/UnitTests-master/src/fontys/time/Time.java</file>
             <file>file:/C:/Users/sande/Documents/UnitTests-master/src/fontys/time/TimeSpan2.java</file>
             <file>file:/C:/Users/sande/Documents/UnitTests-master/src/fontys/time/Contact.java</file>
@@ -12,6 +13,26 @@
             <file>file:/C:/Users/sande/Documents/UnitTests-master/src/fontys/time/ITime.java</file>
             <file>file:/C:/Users/sande/Documents/UnitTests-master/test/fontys/time/TimeSpanTest.java</file>
             <file>file:/C:/Users/sande/Documents/UnitTests-master/src/fontys/time/Appointment.java</file>
+=======
+            <file>file:/C:/Users/sande/Documents/NetBeansProjects/DungeonCrawlerTest2/test/unittests/SpectatorTest.java</file>
+            <file>file:/C:/Users/sande/Documents/NetBeansProjects/DungeonCrawlerTest2/test/unittests/SkillTest.java</file>
+            <file>file:/C:/Users/sande/Documents/NetBeansProjects/DungeonCrawlerTest2/src/dungeoncrawlertest2/classes/Spectator.java</file>
+            <file>file:/C:/Users/sande/Documents/NetBeansProjects/DungeonCrawlerTest2/test/unittests/HeroTest.java</file>
+            <file>file:/C:/Users/sande/Documents/NetBeansProjects/DungeonCrawlerTest2/test/unittests/PlayerTest.java</file>
+            <file>file:/C:/Users/sande/Documents/NetBeansProjects/DungeonCrawlerTest2/test/unittests/NPCTest.java</file>
+            <file>file:/C:/Users/sande/Documents/NetBeansProjects/DungeonCrawlerTest2/test/unittests/TileTest.java</file>
+            <file>file:/C:/Users/sande/Documents/NetBeansProjects/DungeonCrawlerTest2/src/dungeoncrawlertest2/classes/Hero.java</file>
+            <file>file:/C:/Users/sande/Documents/NetBeansProjects/DungeonCrawlerTest2/src/dungeoncrawlertest2/classes/Skill.java</file>
+            <file>file:/C:/Users/sande/Documents/NetBeansProjects/DungeonCrawlerTest2/src/dungeoncrawlertest2/classes/Item.java</file>
+            <file>file:/C:/Users/sande/Documents/NetBeansProjects/DungeonCrawlerTest2/test/unittests/MissionTest.java</file>
+            <file>file:/C:/Users/sande/Documents/NetBeansProjects/DungeonCrawlerTest2/test/unittests/UserTest.java</file>
+            <file>file:/C:/Users/sande/Documents/NetBeansProjects/DungeonCrawlerTest2/src/dungeoncrawlertest2/classes/NPC.java</file>
+            <file>file:/C:/Users/sande/Documents/NetBeansProjects/DungeonCrawlerTest2/src/dungeoncrawlertest2/classes/User.java</file>
+            <file>file:/C:/Users/sande/Documents/NetBeansProjects/DungeonCrawlerTest2/src/dungeoncrawlertest2/classes/Mission.java</file>
+            <file>file:/C:/Users/sande/Documents/NetBeansProjects/DungeonCrawlerTest2/test/unittests/ItemTest.java</file>
+            <file>file:/C:/Users/sande/Documents/NetBeansProjects/DungeonCrawlerTest2/src/dungeoncrawlertest2/classes/Tile.java</file>
+            <file>file:/C:/Users/sande/Documents/NetBeansProjects/DungeonCrawlerTest2/src/dungeoncrawlertest2/classes/Player.java</file>
+>>>>>>> bb0f1a628cb135fc0f803a22f80eaaac350282fa
         </group>
     </open-files>
 </project-private>

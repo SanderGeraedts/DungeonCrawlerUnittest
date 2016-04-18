@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>Character.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">JaCoCoverage analysis of project &quot;DungeonCrawlerTest2&quot; (powered by JaCoCo from EclEmma)</a> &gt; <a href="index.source.html" class="el_package">dungeoncrawlertest2.classes</a> &gt; <span class="el_source">Character.java</span></div><h1>Character.java</h1><pre class="source lang-java linenums">/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package dungeoncrawlertest2.classes;
+
+/**
+ *
+ * @author Maxime &amp; Sander
+ */
+public abstract class Character {
+    // &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Fields&quot;&gt;
+    private int id;
+    private String name;
+    private int health;
+    private int defence;
+    private int attack;
+    private int currentHealth;
+    private int currentTurns;
+    // &lt;/editor-fold&gt;
+
+    // &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Constructor&quot;&gt;
+    /**
+     * 
+     * @param id
+     * @param name
+     * @param health
+     * @param defence
+     * @param attack
+     * @param currentHealth
+     * @param currentTurns 
+     */
+<span class="fc" id="L34">    public Character(int id, String name, int health, int defence, int attack, int currentHealth, int currentTurns) {</span>
+<span class="fc" id="L35">        this.id = id;</span>
+<span class="fc" id="L36">        this.name = name;</span>
+<span class="fc" id="L37">        this.health = health;</span>
+<span class="fc" id="L38">        this.defence = defence;</span>
+<span class="fc" id="L39">        this.attack = attack;</span>
+<span class="fc" id="L40">        this.currentHealth = currentHealth;</span>
+<span class="fc" id="L41">        this.currentTurns = currentTurns;</span>
+<span class="fc" id="L42">    }</span>
+    // &lt;/editor-fold&gt;
+
+    // &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Methods&quot;&gt;  
+    /**
+     * Gets the id per character.
+     * 
+     * @return character id.
+     */
+    public int getID()
+    {
+<span class="fc" id="L53">        return id;</span>
+    }
+    
+    /**
+     * Gets the name per character.
+     * 
+     * @return character name.
+     */
+    public String getName()
+    {
+<span class="fc" id="L63">        return name;</span>
+    }
+    
+    /**
+     * Gets the health per character.
+     * 
+     * @return the characters health.
+     */
+    public int getHealth()
+    {
+<span class="fc" id="L73">        return health;</span>
+    }
+    
+    /**
+     * Gets the characters defence.
+     * 
+     * @return the defence per character.
+     */
+    public int getDefence()
+    {
+<span class="fc" id="L83">        return defence;</span>
+    }
+    
+    /**
+     * Gets the attack per character.
+     * 
+     * @return characters attack.
+     */
+    public int getAttack()
+    {
+<span class="fc" id="L93">        return attack;</span>
+    }
+    
+    /**
+     * Gets the current health per character.
+     * 
+     * @return the current health.
+     */
+    public int getCurrentHealth()
+    {
+<span class="fc" id="L103">        return currentHealth;</span>
+    }
+    
+    /**
+     * Gets the current turns per character.
+     * 
+     * @return character turns.
+     */
+    public int getCurrentTurns()
+    {
+<span class="fc" id="L113">        return currentTurns;</span>
+    }
+    
+    /**
+     * This method uses a skill to attack, putting the skill on a cooldown and
+     * dealing damage to the enemies hit by the attack.
+     *
+     * @param skill The skill used to attack.
+     * @return Return true if the attack has been successfully executed.
+     * Otherwise return false;
+     */
+    public boolean attack(Skill skill) {
+<span class="nc" id="L125">        throw new UnsupportedOperationException(&quot;Not supported yet.&quot;); //To change body of generated methods, choose Tools | Templates.</span>
+    }
+
+    /**
+     * This method moves a character to a specified tile.
+     *
+     * @param tile The tile to which the character wants to move.
+     * @return Return true if the character is able to move to the
+     * specified tile. Otherwise return false.
+     */
+    public boolean move(Tile tile) {
+<span class="nc" id="L136">        throw new UnsupportedOperationException(&quot;Not supported yet.&quot;); //To change body of generated methods, choose Tools | Templates.</span>
+    }
+
+    /**
+     * This method applies a specified effect to the character
+     *
+     * @param effect The effect which should be applied to the character.
+     * @return Return true if the effect has been successfully applied.
+     * Otherwise return false;
+     */
+    public boolean applyEffect(Effect effect) {
+<span class="nc" id="L147">        throw new UnsupportedOperationException(&quot;Not supported yet.&quot;); //To change body of generated methods, choose Tools | Templates.</span>
+    }
+    // &lt;/editor-fold&gt;
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.5.201505241946</span></div></body></html>

@@ -3,7 +3,11 @@
     <type>org.netbeans.modules.java.j2seproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
+<<<<<<< HEAD
             <name>UnittestenTime</name>
+=======
+            <name>DungeonCrawlerTest2</name>
+>>>>>>> bb0f1a628cb135fc0f803a22f80eaaac350282fa
             <source-roots>
                 <root id="src.dir"/>
             </source-roots>

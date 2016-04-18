@@ -10,6 +10,9 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+<<<<<<< HEAD
 *.html
 .jacocoverage/report.html/index.html
 *.html
+=======
+>>>>>>> bb0f1a628cb135fc0f803a22f80eaaac350282fa

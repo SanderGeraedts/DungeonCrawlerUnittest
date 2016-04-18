@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>Floor.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">JaCoCoverage analysis of project &quot;DungeonCrawlerTest2&quot; (powered by JaCoCo from EclEmma)</a> &gt; <a href="index.source.html" class="el_package">dungeoncrawlertest2.classes</a> &gt; <span class="el_source">Floor.java</span></div><h1>Floor.java</h1><pre class="source lang-java linenums">/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package dungeoncrawlertest2.classes;
+
+/**
+ *
+ * @author Maxime &amp; Sander
+ */
+public class Floor {
+    // &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Fields&quot;&gt;
+
+    private int id;
+    private String name;
+    private int floorNumber;
+    // &lt;/editor-fold&gt;
+
+    // &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Constructor&quot;&gt;
+    /**
+     * 
+     * @param id
+     * @param name can't be longer than 225 characters
+     * @param floorNumber 
+     */
+<span class="fc" id="L27">    public Floor(int id, String name, int floorNumber) {</span>
+<span class="fc" id="L28">        this.id = id;</span>
+<span class="fc" id="L29">        this.name = name;</span>
+<span class="fc" id="L30">        this.floorNumber = floorNumber;</span>
+<span class="fc" id="L31">    }</span>
+    // &lt;/editor-fold&gt;
+
+    /**
+     * Gets the id of the floor
+     * 
+     * @return the id of the floor.
+     */
+    public int getId() {
+<span class="fc" id="L40">        return id;</span>
+    }
+
+    /**
+     * Gets the name of the floor
+     * 
+     * @return the name of the floor.
+     */
+    public String getName() {
+<span class="fc" id="L49">        return name;</span>
+    }
+
+    /**
+     * Gets the floor number
+     * 
+     * @return the floornumber.
+     */
+    public int getFloorNumber() {
+<span class="fc" id="L58">        return floorNumber;</span>
+    }
+
+    /**
+     * Generate a dungeon floor
+     * 
+     * @return true if the floor can be generated. Otherwise it returns false.
+     */
+    // &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Methods&quot;&gt;
+    public boolean generateFloor() {
+<span class="nc" id="L68">        throw new UnsupportedOperationException(&quot;Not supported yet.&quot;); //To change body of generated methods, choose Tools | Templates.</span>
+    }
+    // &lt;/editor-fold&gt;
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.5.201505241946</span></div></body></html>
